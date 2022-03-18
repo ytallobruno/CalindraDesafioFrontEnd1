@@ -12,3 +12,71 @@
   --pretoseis: rgba(43, 43, 43, 0.6);
   --pretotres: rgba(43, 43, 43, 0.3);
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(219, 219, 219);
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+
+  justify-content: space-between;
+  background-color: var(--vermelhoclaro);
+}
+
+header,
+.pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.pesquisa {
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.pesquisa #pesquisar,
+.pesquisa #btn {
+  height: 50px;
+}
+
+.pesquisa #pesquisar {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #1f1f1f;
+  background-color: #eee;
+  border-radius: 10px 0 0 10px;
+}
+
+.pesquisa #pesquisar,
+.pesquisa #btn {
+  border: none;
+}
+
+#pesquisar:focus {
+  outline: none;
+}
+
+.pesquisa #btn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #eee;
+  background-color: var(--pretoseis);
+  border-radius: 0 10px 10px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.pesquisa #btn:hover {
+  background-color: var(--pretotres);
+}
