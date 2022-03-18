@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+:root {
+  --vermelhoescuro: rgb(151, 0, 30);
+  --vermelhomedio: rgb(216, 0, 43);
+  --vermelhoclaro: rgb(248, 0, 50);
+  --pretoseis: rgba(43, 43, 43, 0.6);
+  --pretotres: rgba(43, 43, 43, 0.3);
+}
