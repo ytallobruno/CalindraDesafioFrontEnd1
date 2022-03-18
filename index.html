@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-    rel="shortcut icon"
-    href="./assets/favicon-americanas.webp"
-    type="image/x-icon"
-    />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon-americanas.webp"
+      type="image/x-icon"
+    />
     <title>Calindra - Desafio Front End 1</title>
   </head>
   <body>
     <header>
       <a href="./index.html">
-        <img src="./assets/americanas.png" alt="" />
+        <img class="logo" src="./assets/americanas.png" alt="" />
       </a>
 
-      <div >
-        <input type="text" />
-        <button type="submit">Procurar</button>
+      <div class="pesquisa">
+        <input type="text" id="pesquisar" />
+        <button type="submit" value="" id="btn">Procurar</button>
       </div>
     </header>
 
     <main>
-      <div>
+      <div id="listaProdutos">
       </div>
     </main>
 
