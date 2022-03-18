@@ -14,7 +14,7 @@
   texto e um botão busca que ao ser clicado realizará uma busca de produto através do consumo <a href="https://mystique-v2-americanas.juno.b2w.io/autocomplete?content=camiseta&source=nanook">dessa API</a>.</p>
 
 
-<img src="#" alt="imagem da tela do página home do projeto">
+<img src="./assets/docs/americanas.png" alt="imagem da tela do página home do projeto">
 
 <br>
 
