@@ -117,3 +117,38 @@ header,
 #listaProdutos.mostrar h4:last-child {
   border-bottom: none;
 }
+
+@media only screen and (max-width: 700px) {
+  header {
+    height: 25vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .pesquisa #pesquisar,
+  .pesquisa #btn {
+    height: 50px;
+  }
+
+  .pesquisa {
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .pesquisa #btn,
+  .pesquisa #pesquisar {
+    font-size: 1rem;
+  }
+
+  #listaProdutos.mostrar {
+    width: 350px;
+  }
+
+  #listaProdutos.mostrar h4 {
+    font-size: 0.8rem;
+  }
+}
