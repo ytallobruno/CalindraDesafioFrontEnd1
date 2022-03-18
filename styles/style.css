@@ -80,3 +80,40 @@ header,
 .pesquisa #btn:hover {
   background-color: var(--pretotres);
 }
+
+#listaProdutos {
+  display: none;
+}
+
+#listaProdutos.mostrar {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  padding: 0 1rem;
+  background-color: var(--vermelhomedio);
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 12px var(--pretoseis);
+}
+
+#listaProdutos.mostrar h4 {
+  cursor: pointer;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+#listaProdutos.mostrar h4:hover {
+  transform: scale(1.025);
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.75);
+  background-color: var(--vermelhoclaro);
+}
+
+#listaProdutos.mostrar h4:last-child {
+  border-bottom: none;
+}
