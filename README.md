@@ -52,7 +52,7 @@ Para contribuir com meu projeto, siga estas etapas:
   **Criado e desenvolvido por [Ytallo Bruno](https://www.linkedin.com/in/ytallobruno/).**
   
  <div align="center"> 
-  <a href="mailto:ytallodev@gmail.com"><img src="https://cdn-icons.flaticon.com/png/512/720/premium/720277.png?token=exp=1647358191~hmac=aeba8a01a03e056a42991fc74d588090" height="40em" title="Enviar E-mail"></a>
+  <a href="mailto:ytallodev@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/552/552486.png" height="40em" title="Enviar E-mail"></a>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/ytallobruno" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" height="40em" title="GitHub de Ytallo"></a>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
